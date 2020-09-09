@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*navbar*/
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    color: #ababab;
+    text-decoration: none;
+    padding: 0 .6em;
+    position: fixed;
+    background: white;
+
+}
+.navbar img{
+    WIDTH: 25%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 1.33em 0;
+}
+
+ul li{
+    list-style:none;
+}
+ul li a{
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration:none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* section image */
+.section-image{
+    display: flex;
+    margin: 2% 10%;
+    justify-content: space-around;
+}
+
+.part1{
+    background: #00ccb1;
+    margin: 5%;
+}
+.part1 h1{
+    color: white;;
+}
+.part1 h2{
+    color: white;;
+}
+.part2{
+    background: blue;
+    margin: 5%;
+}
+.part2 h1{
+    color: white;
+}
+.part2 h2{
+    color: white;
+}
+/* introduction CSS */
+.inroduction{
+    margin: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inroduction img{
+    margin: 10%;
+}
+.inroduction div{
+    display: flex;
+}
+.inroduction h1{
+    margin: 5%;
+    color: #00b39b;
+    font-size: 2.125rem;
+}
+.inroduction div p{
+    line-height: 1.5;
+    color: gray;
+    /* width: 41%; */
+    padding: 2%;
+
+}
+
+/* CSS contries part */
+.contries{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 10%;
+    justify-content: space-between;
+}
+.contry{
+    margin-bottom: 2%;
+    border: gray 2px solid;
+    border-radius: 6px;
+}
+.contry div{
+    display: flex;
+    justify-content: space-between;
+    padding: 6%; display: flex;
+}
+.contry:hover{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+header{
+    line-height: 1.5;
+    margin: 5%;
+    justify-content: center;
+
+}
